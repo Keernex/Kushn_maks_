@@ -1,0 +1,5 @@
+q=int(input(' m: '))
+print(q*100,'cm')
+print(q*10,'dm')
+print(q*1000,'mili m')
+print(q*0.00062137,'mili')
