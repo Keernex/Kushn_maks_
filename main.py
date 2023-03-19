@@ -1,0 +1,6 @@
+q = int(input())
+w = str(q // 1000)
+r = str(q // 100 % 10)
+e = str(q // 10 % 10)
+t = str(q % 10)
+print(t + e + r + w)
